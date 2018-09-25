@@ -1,3 +1,6 @@
 def search(d, k):
-  return d[k]
+  if k in d:
+    return d[k]
+  return None
+
   
